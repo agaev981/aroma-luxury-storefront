@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="aroma — предметы тишины для дома: свечи, диффузоры и ритуалы." />
+  <title>aroma — искусство ольфакторной тишины</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">Бесплатная доставка от 7 000 ₽ <span>·</span> проба аромата в каждом заказе</div>
+  <header class="header">
+    <button class="menu-btn" aria-label="Открыть меню"><i></i><i></i></button>
+    <a class="logo" href="#top">aroma<sup>®</sup></a>
+    <nav><a href="#shop">Коллекция</a><a href="#ritual">Ритуалы</a><a href="#studio">О студии</a><a href="#b2b">Для бизнеса</a></nav>
+    <div class="header-actions"><button id="searchBtn" aria-label="Поиск">⌕</button><button id="wishBtn" aria-label="Избранное">♡<b id="wishCount">0</b></button><button id="cartBtn" aria-label="Корзина">▢<b id="cartCount">0</b></button></div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow">Домашняя парфюмерия · Москва</p><h1>Искусство<br><em>живого пламени</em></h1><p class="hero-sub">Ароматы, которые создают пространство. Малые тиражи, натуральный воск и внимание к каждой детали.</p><div class="hero-actions"><a class="btn btn-dark" href="#shop">Исследовать коллекцию <span>↗</span></a><button class="text-btn" id="quizOpen">Найти свой аромат <span>→</span></button></div></div>
+      <div class="hero-art"><div class="sun"></div><div class="hero-candle"><div class="flame"></div><div class="wick"></div><div class="jar">aroma<small>NO. 04<br>CEDAR / FIG</small></div></div><span class="vertical-note">BURN SLOWLY · FEEL DEEPLY</span><span class="hero-index">01 / 04</span></div>
+    </section>
+
+    <section class="manifesto"><p class="eyebrow">Наш подход</p><h2>Не просто аромат.<br><em>Состояние.</em></h2><p>Мы создаём предметы, которые замедляют время. Каждая композиция — маленький ритуал возвращения к себе, собранный из природных материалов и памяти о местах.</p><a class="under-link" href="#studio">Узнать больше о студии ↗</a></section>
+
+    <section class="shop" id="shop"><div class="section-head"><div><p class="eyebrow">Подобрано для вас</p><h2>Коллекция <em>сезона</em></h2></div><div class="filters"><button class="filter active" data-filter="all">Все <span>06</span></button><button class="filter" data-filter="candle">Свечи <span>04</span></button><button class="filter" data-filter="diffuser">Диффузоры <span>02</span></button></div></div><div class="product-grid" id="products"></div></section>
+
+    <section class="ritual" id="ritual"><div class="ritual-image"><div class="ritual-label">01 — 03</div></div><div class="ritual-copy"><p class="eyebrow">Ритуалы aroma</p><h2>Огонь любит<br><em>внимание</em></h2><p>Первое зажигание — самое важное. Дайте воску расплавиться до краёв, чтобы свеча запомнила правильный путь. Дальше она будет гореть ровно и красиво.</p><div class="ritual-list"><button class="ritual-item"><span>01</span>Правило первого зажигания <b>+</b></button><button class="ritual-item"><span>02</span>Подрезка фитиля <b>+</b></button><button class="ritual-item"><span>03</span>Второе дыхание кашпо <b>+</b></button></div><a class="under-link" href="#ritual">Смотреть все ритуалы ↗</a></div></section>
+
+    <section class="studio" id="studio"><p class="eyebrow">О студии</p><h2>Тихая роскошь<br><em>повседневности</em></h2><div class="studio-grid"><p>aroma — независимая студия домашних ароматов. Мы работаем с парфюмерами, керамистами и локальными мастерскими, чтобы превращать обычный вечер в личное событие.</p><div class="stat"><strong>18</strong><span>ароматических<br>композиций</span></div><div class="stat"><strong>100%</strong><span>растительный<br>воск</span></div></div></section>
+
+    <section class="b2b" id="b2b"><div><p class="eyebrow">Для бизнеса</p><h2>Аромат,<br><em>который помнят</em></h2><p>Корпоративные подарки, private label и ароматизация пространств для бутиков, отелей и ресторанов.</p><button class="btn btn-light" id="b2bOpen">Обсудить проект <span>↗</span></button></div><div class="b2b-card"><span>АРОМА · PARTNERS</span><strong>Ваше<br>пространство<br>имеет запах.</strong><small>Персональные решения от 50 единиц</small></div></section>
+  </main>
+  <footer><div class="footer-top"><a class="logo" href="#top">aroma<sup>®</sup></a><p>Предметы тишины<br>для вашего дома.</p><div class="newsletter"><label for="email">Письма о новых ароматах</label><div><input id="email" type="email" placeholder="Ваш e-mail" /><button id="subscribe">→</button></div></div></div><div class="footer-bottom"><span>© 2026 aroma studio</span><span>Москва · Береговой пр-д, 5А</span><a href="mailto:info@aroma.ru">info@aroma.ru</a><a href="tel:+74957775520">+7 (495) 777-55-20</a><span>АО «Торговый Дом «АРОМА» · с 1996</span></div></footer>
+
+  <div class="overlay" id="overlay"></div><aside class="drawer" id="cartDrawer"><div class="drawer-head"><h2>Ваша корзина <small id="drawerCount">0 предметов</small></h2><button class="close">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><div class="progress"><span id="progressBar"></span></div><p id="shippingText">Добавьте ещё 7 000 ₽ для бесплатной доставки</p><div class="total"><span>Итого</span><strong id="cartTotal">0 ₽</strong></div><button class="btn btn-dark checkout">Перейти к оформлению</button></div></aside>
+  <div class="modal" id="quizModal"><button class="modal-close">×</button><div class="quiz" id="quiz"></div></div><div class="modal" id="b2bModal"><button class="modal-close">×</button><div class="form-box"><p class="eyebrow">Aroma · partners</p><h2>Соберём решение<br><em>для вас</em></h2><p>Оставьте контакты, и менеджер ответит в течение рабочего дня.</p><input placeholder="Ваше имя" /><input placeholder="Телефон или e-mail" /><select><option>Тип запроса</option><option>Корпоративные подарки</option><option>Ароматизация пространства</option><option>Private label</option></select><button class="btn btn-dark submit-form">Отправить запрос ↗</button></div></div><div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body></html>
